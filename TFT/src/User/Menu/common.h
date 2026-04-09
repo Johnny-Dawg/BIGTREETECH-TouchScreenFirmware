@@ -16,6 +16,9 @@ extern "C" {
 #define ITEM_EXT_LEN_NUM        5
 #define ITEM_TOGGLE_NUM         2
 
+//for custom probing menu
+#define ITEM_ITEM_MILLDIA_NUM   4
+
 typedef enum
 {
   VALUE_NONE = 0,
@@ -50,6 +53,11 @@ extern const uint8_t percentSteps[ITEM_PERCENT_STEPS_NUM];
 
 extern const ITEM itemMoveLen[ITEM_MOVE_LEN_NUM];
 extern const float moveLenSteps[ITEM_MOVE_LEN_NUM];
+
+//For custom probe menu
+extern const ITEM itemMillDia[ITEM_ITEM_MILLDIA_NUM];
+extern const float millDiaSteps[ITEM_ITEM_MILLDIA_NUM];
+
 
 extern const ITEM itemExtLenSteps[ITEM_EXT_LEN_NUM];
 extern const float extlenSteps[ITEM_EXT_LEN_NUM];

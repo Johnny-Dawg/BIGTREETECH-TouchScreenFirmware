@@ -74,6 +74,20 @@ const ITEM itemMoveLen[ITEM_MOVE_LEN_NUM] =
 // List for length/distance change steps
 const float moveLenSteps[ITEM_MOVE_LEN_NUM] = {0.01f, 0.1f, 1, 10, 100};
 
+// Icons list for mill diameter change steps in probing menu
+const ITEM itemMillDia[ITEM_ITEM_MILLDIA_NUM] =
+{
+// icon                          label
+  {ICON_MILLDIA,                  LABEL_MILLDIA0},
+  {ICON_MILLDIA,                  LABEL_MILLDIA3},
+  {ICON_MILLDIA,                  LABEL_MILLDIA5DOT5},
+  {ICON_MILLDIA,                  LABEL_MILLDIA6},
+};
+
+// List for length/distance change steps
+const float millDiaSteps[ITEM_ITEM_MILLDIA_NUM] = {0.0f, 3.0f, 5.5f, 6.0f};
+
+
 // Icons list for Extruder length/distance change steps
 const ITEM itemExtLenSteps[ITEM_EXT_LEN_NUM] =
 {

@@ -153,4 +153,9 @@ X_ICON (DELTA_CALIBRATE)
 X_ICON (ZERO_XY)
 X_ICON (ZERO_Z0dot5)
 X_ICON (ZERO_Z0)
+
+X_ICON (probemenu_XY)
+X_ICON (ZEROXDIA)
+X_ICON (ZEROYDIA)
+X_ICON (MILLDIA)
 // After changing/adding/removing an icon, change the ICON_FLASH_SIGN in Settings.h

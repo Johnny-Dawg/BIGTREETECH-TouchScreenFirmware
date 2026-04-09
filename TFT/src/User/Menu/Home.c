@@ -14,10 +14,10 @@ const MENUITEMS homeItems = {
   LABEL_HOME,
   // icon                          label
   {
-    {ICON_HOME,                    LABEL_HOME_XYZ},
+    {ICON_HOME_MOVE,               LABEL_HOME_XYZ},
     {ICON_Z_HOME,                  LABEL_Z},
     {ICON_BLTOUCH_DEPLOY,          LABEL_PROBE_Z},
-    {ICON_STOP,                    LABEL_STOP},
+    {ICON_probemenu_XY,            LABEL_PROBEMENU},
     {ICON_ZERO_XY,                 LABEL_ZERO_XY},
     {ICON_ZERO_Z0,                 LABEL_ZERO_Z0},
     {ICON_ZERO_Z0dot5,             LABEL_ZERO_Z0dot5},
@@ -49,7 +49,7 @@ void updateGantryTwo(void)
   if (nextScreenUpdate(GANTRY_UPDATE_DELAY))
   {
     coordinateQuery(0);  // query position manually for delay less than 1 second
-    drawXYZ();
+    drawXYZ_two();
   }
 }
 
@@ -68,8 +68,8 @@ void menuHome(void)
     {
       case KEY_ICON_0: storeCmd("G28\n");   break;
       case KEY_ICON_1: storeCmd("G28 Z\n"); break;
-      case KEY_ICON_2: storeCmd("G38.2 Z-100\n"); break;
-      case KEY_ICON_3: Serial_Puts(SERIAL_PORT, "M410\n"); break;
+      case KEY_ICON_2: storeCmd("G38.2 Z-10\n"); break;
+      case KEY_ICON_3: OPEN_MENU(menuProbe); break;
       
 
       case KEY_ICON_4: storeCmd("G92 X0 Y0\n"); break;

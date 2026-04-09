@@ -1,0 +1,42 @@
+Updating icons and label list
+
+Files for icon:
+icon_list/inc           TFT/src/User/API
+
+Files for label:
+Language.inc            TFT/src/User/API/Language
+language_keywords.h     TFT/src/User/API/Language
+language_en.h           TFT/src/User/API/Language
+language_en.ini         Copy to SD Card root directory to update/Language Packs --> should auto update?
+
+After changing anything of the above:
+Settings.h              TFT/src/User/API
+
+
+Root of SD to update (in case of both labels and icons): 
+Language Packs
+TFT35
+BIGTREE_GD_TFT35_V3.0_E3.27.x.bin
+
+
+
+
+--------------------------------
+Implementation XY Probe menu 9 April 2026
+
+8 icons, 2x4
+
+zero X  min radius|  zero Y min radius | Probe Y up (+)      | Mill Diameter
+probe X left (-)  | probe X right (+)  | Probe Y down (-)    | Back
+
+
+ZEROXDIA
+ZEROYDIA
+PROBEYPLUS
+MILLDIA0
+MILLDIA3
+MILLDIA5dot5
+MILLDIA6
+PROBEXMIN
+PROBEXPLUS
+PROBEYMIN
