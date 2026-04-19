@@ -387,7 +387,7 @@
     #define STRING_ZEROYDIA                  "Zero Y-r"
     #define STRING_PROBEYPLUS                "Probe Y+"
     #define STRING_MILLDIA0                  "Dia 0mm"
-    #define STRING_MILLDIA3                  "Dia 3mm"
+    #define STRING_MILLDIA3DOT15             "Dia 3.15mm"
     #define STRING_MILLDIA5DOT5              "Dia 5.5mm"
     #define STRING_MILLDIA6                  "Dia 6mm"
     #define STRING_PROBEXMIN                 "Probe X-"

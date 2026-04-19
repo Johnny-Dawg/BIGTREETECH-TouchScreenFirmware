@@ -79,13 +79,13 @@ const ITEM itemMillDia[ITEM_ITEM_MILLDIA_NUM] =
 {
 // icon                          label
   {ICON_MILLDIA,                  LABEL_MILLDIA0},
-  {ICON_MILLDIA,                  LABEL_MILLDIA3},
+  {ICON_MILLDIA,                  LABEL_MILLDIA3DOT15},
   {ICON_MILLDIA,                  LABEL_MILLDIA5DOT5},
   {ICON_MILLDIA,                  LABEL_MILLDIA6},
 };
 
 // List for length/distance change steps
-const float millDiaSteps[ITEM_ITEM_MILLDIA_NUM] = {0.0f, 3.0f, 5.5f, 6.0f};
+const float millDiaSteps[ITEM_ITEM_MILLDIA_NUM] = {0.0f, 3.15f, 5.5f, 6.0f};
 
 
 // Icons list for Extruder length/distance change steps

@@ -394,7 +394,7 @@ extern "C" {
 #define LANG_KEY_ZEROYDIA                      "label_zeroydia:"
 #define LANG_KEY_PROBEYPLUS                    "label_probeyplus:"
 #define LANG_KEY_MILLDIA0                      "label_milldia0:"
-#define LANG_KEY_MILLDIA3                      "label_milldia3:"
+#define LANG_KEY_MILLDIA3DOT15                 "label_milldia3dot15:"
 #define LANG_KEY_MILLDIA5DOT5                  "label_milldia5dot5:"
 #define LANG_KEY_MILLDIA6                      "label_milldia6:"
 #define LANG_KEY_PROBEXMIN                     "label_probexmin:"

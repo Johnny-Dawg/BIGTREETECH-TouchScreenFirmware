@@ -14,7 +14,7 @@ const MENUITEMS homeItems = {
   LABEL_HOME,
   // icon                          label
   {
-    {ICON_HOME_MOVE,               LABEL_HOME_XYZ},
+    {ICON_HOME,                    LABEL_HOME_XYZ},
     {ICON_Z_HOME,                  LABEL_Z},
     {ICON_BLTOUCH_DEPLOY,          LABEL_PROBE_Z},
     {ICON_probemenu_XY,            LABEL_PROBEMENU},
@@ -68,7 +68,7 @@ void menuHome(void)
     {
       case KEY_ICON_0: storeCmd("G28\n");   break;
       case KEY_ICON_1: storeCmd("G28 Z\n"); break;
-      case KEY_ICON_2: storeCmd("G38.2 Z-10\n"); break;
+      case KEY_ICON_2: storeCmd("G91\n"); storeCmd("G38.2 Z-10\n"); storeCmd("G90\n"); break;       
       case KEY_ICON_3: OPEN_MENU(menuProbe); break;
       
 
